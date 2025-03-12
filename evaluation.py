@@ -39,7 +39,6 @@ def generate_plots(models, X_test, y_test, feature_names):
     plt.savefig("results/actual_vs_predicted.png")
     plt.close()
     
-    # Feature Importance Plot (Random Forest)
     if "Random Forest" in models:
         feature_importances = pd.Series(models["Random Forest"].feature_importances_, index=feature_names)
         plt.figure(figsize=(10, 6))

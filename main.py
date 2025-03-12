@@ -18,7 +18,6 @@ models["Gradient Boosting"] = tune_model(models["Gradient Boosting"], gb_param_g
 
 trained_models = train_models(models, X_train, y_train)
 
-# Cross-validation scores
 rf_cv_score = cross_validate_model(trained_models["Random Forest"], X_train, y_train)
 gb_cv_score = cross_validate_model(trained_models["Gradient Boosting"], X_train, y_train)
 print(f"Random Forest Cross-validated R²: {rf_cv_score:.4f}")

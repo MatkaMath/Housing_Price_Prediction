@@ -45,7 +45,6 @@ pip install -r requirements.txt
 ### 2️⃣ Run the Pipeline
 ```bash
 python main.py
-```
 
 ### 3️⃣ Check Outputs
 - Trained models will be saved in the `models/` directory.

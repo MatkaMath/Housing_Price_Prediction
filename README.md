@@ -56,7 +56,7 @@ python main.py
 
 ## 📂 Project Structure
 ```
-📦 Boston_Housing_Prediction
+📦 housing_price_prediction
 ├── 📄 main.py             # Runs preprocessing, training, and evaluation
 ├── 📄 preprocessing.py    # Data loading and preprocessing
 ├── 📄 train.py            # Model training and hyperparameter tuning
